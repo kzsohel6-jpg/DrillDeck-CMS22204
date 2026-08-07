@@ -1,0 +1,43 @@
+DRILLDECK v5.0.0 FINAL AUDIT REPORT
+===================================
+
+STATIC VERIFICATION COMPLETED
+- 12 seeded scenarios
+- 4 Easy, 4 Medium and 4 Hard scenarios
+- 5 decisions per seeded scenario
+- 4 choices per seeded decision
+- 60 decisions and 240 scored choices
+- Highest-scoring source positions: 15 A, 15 B, 15 C, 15 D
+- Choice order randomised during trainee sessions
+- All server and test JavaScript passed Node syntax checks
+- All 20 frontend source files passed JSX/JavaScript syntax parsing
+- All relative local imports resolved
+- All JSON data parsed successfully
+- All 15 SVG brand/scenario assets parsed successfully
+- No database, node_modules, build or cache folders are bundled
+
+FUNCTIONALITY AUDITED AND STRENGTHENED
+- Administrator scenario CRUD and publish/unpublish controls
+- Administrator can add up to 8 options and 12 decisions
+- Strict validation for all scenario content and scoring
+- Administrator trainee editing, password reset and deletion
+- Administrator can inspect all attempts and every saved answer
+- Trainee can review saved answers after a new login
+- Attempt answer and scenario snapshots survive later content editing
+- Older database references are safely detached before scenario rebuilding
+- Seed library no longer overwrites administrator changes on restart
+- Trainee scenario payload hides answer scores and feedback
+- Immediate feedback and final scoring are controlled by the backend
+- Duplicate or incomplete submissions are rejected
+- Published-progress percentage cannot exceed 100 after unpublishing content
+- Health endpoint performs a real SQLite query
+- Security response headers and backend role checks are enabled
+- Windows launcher checks dependencies, versions and port conflicts
+- Automated production-build and end-to-end live check included
+
+RUNTIME CONFIRMATION
+This packaging environment cannot access the public npm registry, so the npm
+packages cannot be installed and the Express/Vite services cannot be launched
+here. On the presentation laptop, run start-drilldeck.bat and then
+run-final-check.bat. The bundled live check creates temporary admin/trainee
+data, exercises the complete workflow and removes its test records afterward.

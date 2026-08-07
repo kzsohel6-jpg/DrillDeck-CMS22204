@@ -1,0 +1,42 @@
+DRILLDECK SUBMISSION-READY EDITION v5.0.0 — START HERE
+====================================================
+
+WINDOWS
+1. Extract the ZIP completely.
+2. Open the extracted DrillDeck-SQL-Submission-Ready folder.
+3. Double-click start-drilldeck.bat.
+4. Allow the first npm installation to finish.
+5. Keep both black server windows open.
+6. DrillDeck opens at http://localhost:5173.
+
+FINAL CHECK
+After the website is running, double-click run-final-check.bat.
+A complete success ends with:
+ALL LIVE CHECKS PASSED — DrillDeck is ready for demonstration.
+
+ASSESSMENT ACCOUNTS
+Administrator: admin@drilldeck.local
+Password: Admin123!
+
+Trainee: trainee@drilldeck.local
+Password: Trainee123!
+
+ADMINISTRATOR CAPABILITIES
+- Create, edit, publish, unpublish and delete eligible scenarios.
+- Change all scenario details and artwork.
+- Add/remove 3–12 decision steps.
+- Add/remove 4–8 options per decision.
+- Change option text, scores and feedback.
+- View/edit trainee accounts and reset passwords.
+- View all saved progress and every selected answer.
+
+PERSISTENCE
+Trainee attempts, exact answers and scenario snapshots are stored in SQLite.
+They remain after logout, login and application restart. Administrator edits
+are not reset when the server restarts.
+
+BEFORE PRESENTATION DAY
+- Run run-final-check.bat and photograph the success screen.
+- Complete 2–3 trainee scenarios for visible dashboard charts.
+- Use backup-database.bat after creating your presentation data.
+- Keep the ZIP, PowerPoint and report on laptop, OneDrive and USB.

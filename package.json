@@ -1,0 +1,14 @@
+{
+  "name": "drilldeck-sql-submission-ready",
+  "version": "5.0.0",
+  "private": true,
+  "description": "Professional full-stack decision training platform using React, Express and SQLite",
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client",
+    "dev": "node scripts/dev.js",
+    "start": "npm run start --prefix server",
+    "build": "npm run build --prefix client",
+    "verify": "node scripts/verify-project.js",
+    "smoke": "node scripts/live-smoke-test.js"
+  }
+}
