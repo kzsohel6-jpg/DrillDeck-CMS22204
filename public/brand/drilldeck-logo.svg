@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 128" role="img" aria-labelledby="title desc">
+<title id="title">DrillDeck</title><desc id="desc">DrillDeck decision training platform logo</desc>
+<defs>
+  <linearGradient id="logoG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#55F1C6"/><stop offset=".48" stop-color="#5EA8FF"/><stop offset="1" stop-color="#B08CFF"/>
+  </linearGradient>
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g transform="translate(8 8)">
+  <path d="M58 3 105 20v35c0 31-18 52-47 65C29 107 11 86 11 55V20L58 3Z" fill="#0B1725" stroke="url(#logoG)" stroke-width="5"/>
+  <path d="M37 37h38a9 9 0 0 1 9 9v5H28v-5a9 9 0 0 1 9-9Z" fill="none" stroke="#79D9FF" stroke-width="5"/>
+  <path d="M28 55h56v21a9 9 0 0 1-9 9H37a9 9 0 0 1-9-9V55Z" fill="none" stroke="#55F1C6" stroke-width="5"/>
+  <path d="m58 46-9 18h10l-5 18 17-24H60l8-12Z" fill="url(#logoG)" filter="url(#glow)"/>
+</g>
+<text x="140" y="79" fill="#F5F8FC" font-family="Inter,Manrope,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="-2">Drill</text>
+<text x="263" y="79" fill="url(#logoG)" font-family="Inter,Manrope,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="-2">Deck</text>
+<text x="143" y="105" fill="#92A7BD" font-family="Inter,Manrope,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="4">DECISION TRAINING PLATFORM</text>
+</svg>

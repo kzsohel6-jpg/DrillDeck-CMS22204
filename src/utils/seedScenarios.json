@@ -1,0 +1,1706 @@
+[
+  {
+    "title": "Phishing Email Under Pressure",
+    "category": "Cybersecurity",
+    "difficulty": "Easy",
+    "description": "Spot social-engineering warning signs and respond safely to an urgent account-verification email.",
+    "imageKey": "phishing-email",
+    "durationMinutes": 7,
+    "learningOutcome": "Recognise phishing indicators, verify requests through trusted channels and report suspicious messages.",
+    "skillFocus": "Observation,Verification,Reporting",
+    "steps": [
+      {
+        "situation": "An email says your work account will be suspended in ten minutes unless you verify it.",
+        "question": "What should you examine first?",
+        "choices": [
+          {
+            "text": "Only the company logo and colours",
+            "score": 5,
+            "feedback": "Branding can be copied. Check the sender, link and context as well."
+          },
+          {
+            "text": "The sender address, destination link and whether the request was expected",
+            "score": 10,
+            "feedback": "Correct. Independent checks are more reliable than the message's appearance or urgency."
+          },
+          {
+            "text": "Click immediately because the message is urgent",
+            "score": 0,
+            "feedback": "Urgency is a common social-engineering tactic and should not replace verification."
+          },
+          {
+            "text": "Ask a manager whether the message looks official before inspecting the technical details",
+            "score": 6,
+            "feedback": "A second opinion may help, but sender, link and context checks are still required."
+          }
+        ]
+      },
+      {
+        "situation": "The visible link says company-login.com, but hovering shows company-login-security.net.",
+        "question": "What is the safest action?",
+        "choices": [
+          {
+            "text": "Open it in a private browser window",
+            "score": 3,
+            "feedback": "Private mode does not make a malicious website safe."
+          },
+          {
+            "text": "Forward it to a colleague to test",
+            "score": 0,
+            "feedback": "Forwarding can spread the threat to other users."
+          },
+          {
+            "text": "Copy the destination into a search engine to see whether the site appears in results",
+            "score": 3,
+            "feedback": "Search results do not prove that a login page is legitimate or safe."
+          },
+          {
+            "text": "Do not click; open the official service separately and report the message",
+            "score": 10,
+            "feedback": "Correct. Use a known route and report the suspicious domain."
+          }
+        ]
+      },
+      {
+        "situation": "The email asks for your password and multi-factor authentication code.",
+        "question": "How should you respond?",
+        "choices": [
+          {
+            "text": "Refuse, close the message and contact IT through the official support channel",
+            "score": 10,
+            "feedback": "Correct. Legitimate support should not request your password or one-time code by email."
+          },
+          {
+            "text": "Send only the password but keep the code private",
+            "score": 0,
+            "feedback": "A password alone can still compromise the account."
+          },
+          {
+            "text": "Reply asking whether the request is genuine",
+            "score": 4,
+            "feedback": "Replying keeps you inside the suspicious channel; verify independently instead."
+          },
+          {
+            "text": "Use a separate device to send the requested verification code",
+            "score": 0,
+            "feedback": "Changing devices does not make credential sharing safe."
+          }
+        ]
+      },
+      {
+        "situation": "You accidentally clicked the link but did not enter any details.",
+        "question": "What should you do next?",
+        "choices": [
+          {
+            "text": "Ignore it because no password was entered",
+            "score": 4,
+            "feedback": "The visit may still matter; report it so the risk can be assessed."
+          },
+          {
+            "text": "Refresh the page to check whether it looks real",
+            "score": 0,
+            "feedback": "Repeated interaction increases exposure and provides no reliable verification."
+          },
+          {
+            "text": "Close the page, report it and follow the organisation's security guidance",
+            "score": 10,
+            "feedback": "Correct. Reporting allows the security team to assess the exposure quickly."
+          },
+          {
+            "text": "Disconnect the device from the network but do not report the click",
+            "score": 6,
+            "feedback": "Limiting exposure can help, but the security team still needs an accurate report."
+          }
+        ]
+      },
+      {
+        "situation": "A colleague says they received the same message.",
+        "question": "What is the best team response?",
+        "choices": [
+          {
+            "text": "Ask everyone to delete it quietly",
+            "score": 5,
+            "feedback": "Deletion helps locally, but central reporting is still needed."
+          },
+          {
+            "text": "Tell them not to interact with it and ensure the message is reported centrally",
+            "score": 10,
+            "feedback": "Correct. A coordinated report helps protect other users."
+          },
+          {
+            "text": "Post the link in the group chat as a warning",
+            "score": 0,
+            "feedback": "Sharing the live link can cause accidental clicks."
+          },
+          {
+            "text": "Take a screenshot and circulate the live message to every colleague",
+            "score": 4,
+            "feedback": "A screenshot may support reporting, but broad circulation can spread confusion and risk."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Password Reset Impersonation",
+    "category": "Cybersecurity",
+    "difficulty": "Easy",
+    "description": "Handle a fake support call requesting credentials and remote access.",
+    "imageKey": "password-reset",
+    "durationMinutes": 7,
+    "learningOutcome": "Protect credentials and verify identity before taking account-related actions.",
+    "skillFocus": "Identity checks,Credential safety,Escalation",
+    "steps": [
+      {
+        "situation": "A caller claims to be IT support and says your password must be reset immediately.",
+        "question": "What should you do first?",
+        "choices": [
+          {
+            "text": "Ask the caller to confirm your employee number",
+            "score": 4,
+            "feedback": "A criminal may already know basic details. Use an official channel."
+          },
+          {
+            "text": "Follow the instructions because the caller sounds professional",
+            "score": 0,
+            "feedback": "Tone and confidence do not prove identity."
+          },
+          {
+            "text": "End the call and contact IT using the official number or portal",
+            "score": 10,
+            "feedback": "Correct. Independent verification prevents impersonation fraud."
+          },
+          {
+            "text": "Keep the caller on the line while checking their name in the staff directory",
+            "score": 5,
+            "feedback": "A directory entry does not verify that the caller is the person they claim to be."
+          }
+        ]
+      },
+      {
+        "situation": "The caller asks you to install a remote-access tool.",
+        "question": "What is the safest response?",
+        "choices": [
+          {
+            "text": "Refuse and report the request to IT or security",
+            "score": 10,
+            "feedback": "Correct. Unapproved remote access can expose the whole device."
+          },
+          {
+            "text": "Install it but close confidential files first",
+            "score": 0,
+            "feedback": "Remote access can still expose credentials and systems."
+          },
+          {
+            "text": "Ask the caller to email the link",
+            "score": 3,
+            "feedback": "An email link from an unverified person is not safer."
+          },
+          {
+            "text": "Install the tool temporarily and remove it after the reset",
+            "score": 0,
+            "feedback": "Even brief unapproved remote access can expose credentials and systems."
+          }
+        ]
+      },
+      {
+        "situation": "You receive a password-reset link moments after the call.",
+        "question": "How should you handle it?",
+        "choices": [
+          {
+            "text": "Use the link because it arrived from an automated address",
+            "score": 4,
+            "feedback": "Sender names and automated templates can be spoofed."
+          },
+          {
+            "text": "Forward it to your personal email to check later",
+            "score": 0,
+            "feedback": "This moves potentially malicious content outside company controls."
+          },
+          {
+            "text": "Scan the link with normal antivirus software and use it if no alert appears",
+            "score": 3,
+            "feedback": "A clean scan is not proof that the link or reset process is genuine."
+          },
+          {
+            "text": "Use the official account portal instead of the link and report the sequence of events",
+            "score": 10,
+            "feedback": "Correct. The combination of call and email is a strong warning sign."
+          }
+        ]
+      },
+      {
+        "situation": "The caller knows your manager's name and current project.",
+        "question": "Does this prove they are genuine?",
+        "choices": [
+          {
+            "text": "Yes; outsiders would not know those details",
+            "score": 0,
+            "feedback": "Attackers often research targets before contacting them."
+          },
+          {
+            "text": "No; public or leaked information can be used to sound convincing",
+            "score": 10,
+            "feedback": "Correct. Verify identity through official processes."
+          },
+          {
+            "text": "Probably, but share only part of the password",
+            "score": 0,
+            "feedback": "Passwords should never be shared, even partially."
+          },
+          {
+            "text": "Ask a personal question about your manager before deciding",
+            "score": 4,
+            "feedback": "Attackers may research personal details; official verification is still necessary."
+          }
+        ]
+      },
+      {
+        "situation": "You already provided your username but no password.",
+        "question": "What should you do?",
+        "choices": [
+          {
+            "text": "Do nothing because usernames are always public",
+            "score": 4,
+            "feedback": "The information may be useful for follow-up attacks and should be reported."
+          },
+          {
+            "text": "Call the number back and demand deletion",
+            "score": 0,
+            "feedback": "Re-engaging through the suspicious number can increase risk."
+          },
+          {
+            "text": "Report it promptly and follow the official account-protection steps",
+            "score": 10,
+            "feedback": "Correct. Early reporting can prevent further targeting."
+          },
+          {
+            "text": "Change the password through the official portal but do not report the contact",
+            "score": 7,
+            "feedback": "Using the official portal is sensible, but reporting helps stop follow-up attacks against others."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Slip Hazard in a Busy Area",
+    "category": "Workplace Safety",
+    "difficulty": "Easy",
+    "description": "Respond to a spill safely while keeping people moving and recording the hazard.",
+    "imageKey": "slip-hazard",
+    "durationMinutes": 6,
+    "learningOutcome": "Control an immediate hazard, communicate clearly and complete the correct reporting process.",
+    "skillFocus": "Hazard control,Communication,Reporting",
+    "steps": [
+      {
+        "situation": "You notice water on a polished floor near a busy doorway.",
+        "question": "What is the first priority?",
+        "choices": [
+          {
+            "text": "Take a photo before doing anything",
+            "score": 4,
+            "feedback": "Evidence may help later, but first prevent someone from slipping."
+          },
+          {
+            "text": "Wait for housekeeping to notice it",
+            "score": 0,
+            "feedback": "Leaving the hazard uncontrolled exposes others to injury."
+          },
+          {
+            "text": "Ask a nearby colleague to watch the area while you continue your other duties",
+            "score": 6,
+            "feedback": "Temporary supervision helps, but the area still needs a proper barrier and cleaning response."
+          },
+          {
+            "text": "Prevent access to the area and place a warning sign while arranging cleaning",
+            "score": 10,
+            "feedback": "Correct. Control the immediate risk before anything else."
+          }
+        ]
+      },
+      {
+        "situation": "No warning sign is immediately available.",
+        "question": "What should you do?",
+        "choices": [
+          {
+            "text": "Leave to search the whole building for a sign",
+            "score": 3,
+            "feedback": "The hazard would be left unattended."
+          },
+          {
+            "text": "Stand nearby or use a safe temporary barrier while requesting equipment",
+            "score": 10,
+            "feedback": "Correct. Maintain control until proper equipment arrives."
+          },
+          {
+            "text": "Cover the spill with paper towels and walk away",
+            "score": 0,
+            "feedback": "Loose materials may create another hazard and the area remains unsafe."
+          },
+          {
+            "text": "Place a chair near the spill and leave to find equipment",
+            "score": 5,
+            "feedback": "An improvised marker may be missed and should not be left unmonitored."
+          }
+        ]
+      },
+      {
+        "situation": "A visitor tries to walk through the controlled area.",
+        "question": "How should you respond?",
+        "choices": [
+          {
+            "text": "Shout at them to stop",
+            "score": 3,
+            "feedback": "The goal is safety without unnecessary escalation."
+          },
+          {
+            "text": "Let them decide because the spill is small",
+            "score": 0,
+            "feedback": "The risk must be controlled consistently."
+          },
+          {
+            "text": "Politely explain the risk and direct them through a safe alternative route",
+            "score": 10,
+            "feedback": "Correct. Clear, calm direction protects the visitor and keeps movement orderly."
+          },
+          {
+            "text": "Tell the visitor to step over the spill carefully",
+            "score": 1,
+            "feedback": "People should be redirected away from the hazard rather than encouraged through it."
+          }
+        ]
+      },
+      {
+        "situation": "The spill has been cleaned.",
+        "question": "What should happen before reopening the area?",
+        "choices": [
+          {
+            "text": "Confirm the surface is dry and remove barriers only when it is safe",
+            "score": 10,
+            "feedback": "Correct. Visual cleanliness does not always mean the surface is safe."
+          },
+          {
+            "text": "Remove the sign as soon as mopping finishes",
+            "score": 4,
+            "feedback": "The floor may still be wet and slippery."
+          },
+          {
+            "text": "Leave all barriers in place for the rest of the day",
+            "score": 3,
+            "feedback": "Controls should remain only as long as needed and should not create obstruction."
+          },
+          {
+            "text": "Test the surface with your shoe before removing the barrier",
+            "score": 2,
+            "feedback": "An informal test is unreliable; confirm the surface is properly dry and safe."
+          }
+        ]
+      },
+      {
+        "situation": "The same leak has happened twice this week.",
+        "question": "What is the best follow-up?",
+        "choices": [
+          {
+            "text": "Keep cleaning it whenever it appears",
+            "score": 4,
+            "feedback": "Cleaning controls the symptom but not the cause."
+          },
+          {
+            "text": "Stop reporting it because staff already know",
+            "score": 0,
+            "feedback": "A clear record helps management prioritise a permanent fix."
+          },
+          {
+            "text": "Leave a permanent warning sign but do not report the source of the leak",
+            "score": 4,
+            "feedback": "The immediate warning matters, but repeated hazards also need investigation and repair."
+          },
+          {
+            "text": "Record the repeated issue and escalate it for investigation and repair",
+            "score": 10,
+            "feedback": "Correct. Repeated hazards require a root-cause response."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Customer Personal Data Request",
+    "category": "Data Privacy",
+    "difficulty": "Easy",
+    "description": "Verify identity and handle a request for personal information without exposing customer data.",
+    "imageKey": "data-request",
+    "durationMinutes": 7,
+    "learningOutcome": "Apply identity verification, data minimisation and secure communication principles.",
+    "skillFocus": "Privacy,Verification,Data minimisation",
+    "steps": [
+      {
+        "situation": "A customer calls asking for a copy of all information held about them.",
+        "question": "What should you do first?",
+        "choices": [
+          {
+            "text": "Follow the approved identity-verification and data-request process",
+            "score": 10,
+            "feedback": "Correct. Privacy requests must be handled through a controlled process."
+          },
+          {
+            "text": "Read the information aloud because they know the account name",
+            "score": 0,
+            "feedback": "Knowing a name does not prove identity."
+          },
+          {
+            "text": "Ask them to send a social-media message",
+            "score": 0,
+            "feedback": "Personal data should not be moved to an unapproved channel."
+          },
+          {
+            "text": "Ask the customer to send identification to your personal email address",
+            "score": 0,
+            "feedback": "Personal email is not an approved route for handling identity evidence."
+          }
+        ]
+      },
+      {
+        "situation": "The caller cannot complete the required security checks.",
+        "question": "What is the correct response?",
+        "choices": [
+          {
+            "text": "Give only the last few records",
+            "score": 0,
+            "feedback": "Partial disclosure is still a privacy breach."
+          },
+          {
+            "text": "Use your judgement if they sound upset",
+            "score": 3,
+            "feedback": "Empathy matters, but it does not replace verification."
+          },
+          {
+            "text": "Do not disclose data; explain the approved alternative verification route",
+            "score": 10,
+            "feedback": "Correct. Be helpful without weakening the control."
+          },
+          {
+            "text": "Arrange a callback using verified account contact details and follow the formal process",
+            "score": 7,
+            "feedback": "A verified callback may support the process, but disclosure must still follow approved controls."
+          }
+        ]
+      },
+      {
+        "situation": "The request includes another person's information.",
+        "question": "What should you do?",
+        "choices": [
+          {
+            "text": "Send everything because it is stored in the same account",
+            "score": 0,
+            "feedback": "Storage location does not remove another person's privacy rights."
+          },
+          {
+            "text": "Separate the information and escalate for privacy review before release",
+            "score": 10,
+            "feedback": "Correct. Third-party data must be protected."
+          },
+          {
+            "text": "Delete the other person's records",
+            "score": 0,
+            "feedback": "Records should not be altered without authority."
+          },
+          {
+            "text": "Redact the other person's name yourself and send the remaining file without review",
+            "score": 4,
+            "feedback": "Informal redaction can miss identifiers and still requires an authorised privacy review."
+          }
+        ]
+      },
+      {
+        "situation": "You are ready to send the approved information.",
+        "question": "Which delivery method is best?",
+        "choices": [
+          {
+            "text": "Attach it to a normal email without protection",
+            "score": 2,
+            "feedback": "Standard email may not provide sufficient protection."
+          },
+          {
+            "text": "Upload it to a public file-sharing link",
+            "score": 0,
+            "feedback": "Public links can expose data to unauthorised access."
+          },
+          {
+            "text": "Send a password-protected file and put the password in the same email",
+            "score": 3,
+            "feedback": "Sending the password in the same channel weakens the protection."
+          },
+          {
+            "text": "Use the organisation's approved secure delivery method",
+            "score": 10,
+            "feedback": "Correct. Sensitive data should be protected in transit."
+          }
+        ]
+      },
+      {
+        "situation": "The customer asks why the process takes time.",
+        "question": "How should you explain it?",
+        "choices": [
+          {
+            "text": "Explain that verification and review protect their privacy and ensure accuracy",
+            "score": 10,
+            "feedback": "Correct. Transparent communication builds trust without revealing internal security details."
+          },
+          {
+            "text": "Say the organisation does not trust customers",
+            "score": 0,
+            "feedback": "That is inaccurate and unnecessarily confrontational."
+          },
+          {
+            "text": "Promise immediate release regardless of checks",
+            "score": 0,
+            "feedback": "You should not bypass required controls or make an unsafe promise."
+          },
+          {
+            "text": "Explain the process but reveal the approximate number of records before verification",
+            "score": 4,
+            "feedback": "The explanation is useful, but details about held data should wait until identity is verified."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Suspicious Bag at an Event Entrance",
+    "category": "Public Safety",
+    "difficulty": "Medium",
+    "description": "Manage an unattended item near a busy entrance using distance, communication and controlled escalation.",
+    "imageKey": "suspicious-bag",
+    "durationMinutes": 9,
+    "learningOutcome": "Establish a safe boundary, provide accurate information and support a coordinated response.",
+    "skillFocus": "Situational awareness,Escalation,Crowd control",
+    "steps": [
+      {
+        "situation": "A visitor reports an unattended backpack beside the entrance queue.",
+        "question": "What should you do first?",
+        "choices": [
+          {
+            "text": "Move it behind the barrier yourself",
+            "score": 0,
+            "feedback": "Handling an unknown item creates unnecessary risk."
+          },
+          {
+            "text": "Keep people away, avoid touching it and notify the control room",
+            "score": 10,
+            "feedback": "Correct. Distance and escalation are the safest immediate actions."
+          },
+          {
+            "text": "Wait to see whether someone claims it",
+            "score": 3,
+            "feedback": "Waiting without controlling the area exposes more people."
+          },
+          {
+            "text": "Move closer and photograph the bag before contacting control",
+            "score": 1,
+            "feedback": "Approaching an unidentified item increases risk and is unnecessary for the initial report."
+          }
+        ]
+      },
+      {
+        "situation": "The control room asks for details.",
+        "question": "Which information is most useful?",
+        "choices": [
+          {
+            "text": "Your guess about what is inside",
+            "score": 2,
+            "feedback": "Assumptions are less useful than precise observations."
+          },
+          {
+            "text": "Only say that there is a bag",
+            "score": 5,
+            "feedback": "This starts the report but lacks important detail."
+          },
+          {
+            "text": "Provide the location and appearance but add a guess about what may be inside",
+            "score": 5,
+            "feedback": "Useful facts should be separated from speculation."
+          },
+          {
+            "text": "Exact location, appearance, nearby activity and time first noticed",
+            "score": 10,
+            "feedback": "Correct. Observable facts support a proportionate response."
+          }
+        ]
+      },
+      {
+        "situation": "The queue is building as the area is redirected.",
+        "question": "How should you communicate with visitors?",
+        "choices": [
+          {
+            "text": "Give calm, simple directions without speculating about the threat",
+            "score": 10,
+            "feedback": "Correct. Clear direction maintains safety and reduces panic."
+          },
+          {
+            "text": "Tell everyone there may be a bomb",
+            "score": 0,
+            "feedback": "Unverified claims can cause panic and disorder."
+          },
+          {
+            "text": "Say nothing and physically block the route",
+            "score": 4,
+            "feedback": "A barrier helps, but people also need clear direction."
+          },
+          {
+            "text": "Explain that an operational issue requires a short diversion and give a clear alternative route",
+            "score": 8,
+            "feedback": "This is calm and practical, although communication should remain aligned with the control team."
+          }
+        ]
+      },
+      {
+        "situation": "A person says the bag is theirs and tries to retrieve it.",
+        "question": "What is the best response?",
+        "choices": [
+          {
+            "text": "Let them collect it if they describe the colour",
+            "score": 2,
+            "feedback": "A description alone is not enough to end the safety response."
+          },
+          {
+            "text": "Ask them to open it in front of you",
+            "score": 0,
+            "feedback": "Opening an unknown item is unsafe."
+          },
+          {
+            "text": "Prevent access and pass the claim to the response lead for verification",
+            "score": 10,
+            "feedback": "Correct. The controlled process should continue until authorised staff decide otherwise."
+          },
+          {
+            "text": "Ask the claimant to wait beside the bag while you contact a supervisor",
+            "score": 2,
+            "feedback": "The person should also be kept outside the controlled area."
+          }
+        ]
+      },
+      {
+        "situation": "Specialist support arrives.",
+        "question": "What should you do?",
+        "choices": [
+          {
+            "text": "Continue directing the incident independently",
+            "score": 3,
+            "feedback": "Once responsibility is transferred, avoid conflicting instructions."
+          },
+          {
+            "text": "Give a concise handover and follow the lead responder's instructions",
+            "score": 10,
+            "feedback": "Correct. A clear handover supports coordinated command."
+          },
+          {
+            "text": "Leave without giving any information",
+            "score": 0,
+            "feedback": "The response team needs the facts you collected."
+          },
+          {
+            "text": "Give the responder a description but omit when and where it was first noticed",
+            "score": 5,
+            "feedback": "A description helps, but time and exact location are important parts of the handover."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Fire Alarm and Evacuation",
+    "category": "Emergency Response",
+    "difficulty": "Medium",
+    "description": "Prioritise safe evacuation, accessibility support and accountability during a live alarm.",
+    "imageKey": "fire-alarm",
+    "durationMinutes": 9,
+    "learningOutcome": "Support an orderly evacuation and communicate critical information at the assembly point.",
+    "skillFocus": "Evacuation,Accessibility,Accountability",
+    "steps": [
+      {
+        "situation": "The fire alarm activates while the building is busy.",
+        "question": "What is your immediate priority?",
+        "choices": [
+          {
+            "text": "Search for visible fire before acting",
+            "score": 0,
+            "feedback": "Delaying evacuation can increase harm."
+          },
+          {
+            "text": "Wait for someone else to move first",
+            "score": 0,
+            "feedback": "Staff should act promptly according to procedure."
+          },
+          {
+            "text": "Begin the approved evacuation procedure and direct people to safe exits",
+            "score": 10,
+            "feedback": "Correct. Life safety and orderly evacuation come first."
+          },
+          {
+            "text": "Call a colleague to ask whether the alarm is a planned test before moving people",
+            "score": 3,
+            "feedback": "Treat alarms as genuine unless an authorised process confirms otherwise."
+          }
+        ]
+      },
+      {
+        "situation": "A visitor wants to use the lift because they are on an upper floor.",
+        "question": "What should you do?",
+        "choices": [
+          {
+            "text": "Direct them to the approved evacuation route and arrange accessibility support",
+            "score": 10,
+            "feedback": "Correct. Use the designated procedure and support plan."
+          },
+          {
+            "text": "Allow the lift because it is faster",
+            "score": 0,
+            "feedback": "Lifts may become unsafe during a fire incident."
+          },
+          {
+            "text": "Tell them to remain alone until the alarm stops",
+            "score": 0,
+            "feedback": "They need active support through the approved process."
+          },
+          {
+            "text": "Use the lift only for the visitor with mobility needs because the stairs are difficult",
+            "score": 2,
+            "feedback": "Accessibility support must follow the approved evacuation plan rather than an improvised lift decision."
+          }
+        ]
+      },
+      {
+        "situation": "Smoke is reported near one exit route.",
+        "question": "How should this affect your actions?",
+        "choices": [
+          {
+            "text": "Continue using the route until smoke is visible to you",
+            "score": 0,
+            "feedback": "A credible report should be acted upon immediately."
+          },
+          {
+            "text": "Open nearby doors to investigate",
+            "score": 2,
+            "feedback": "Investigation may increase exposure and is not your first priority."
+          },
+          {
+            "text": "Open the nearby door briefly to check how much smoke is present",
+            "score": 1,
+            "feedback": "Opening doors can increase exposure and should not replace route control and reporting."
+          },
+          {
+            "text": "Redirect people to the approved alternative route and inform control",
+            "score": 10,
+            "feedback": "Correct. Avoid the affected route and update the incident picture."
+          }
+        ]
+      },
+      {
+        "situation": "At the assembly point, a person says their colleague may still be inside.",
+        "question": "What is the correct response?",
+        "choices": [
+          {
+            "text": "Go inside alone to search",
+            "score": 0,
+            "feedback": "Unplanned re-entry may create another casualty."
+          },
+          {
+            "text": "Pass the information to the emergency lead and prevent unplanned re-entry",
+            "score": 10,
+            "feedback": "Correct. Trained responders need the information; re-entry creates more risk."
+          },
+          {
+            "text": "Ignore it because the alarm could be false",
+            "score": 0,
+            "feedback": "Missing-person information must be escalated."
+          },
+          {
+            "text": "Send one trained colleague inside without telling the emergency lead",
+            "score": 2,
+            "feedback": "Any search or rescue action must be coordinated by the authorised emergency command."
+          }
+        ]
+      },
+      {
+        "situation": "The alarm stops before an authorised all-clear is given.",
+        "question": "What should people do?",
+        "choices": [
+          {
+            "text": "Return immediately because the alarm is silent",
+            "score": 0,
+            "feedback": "The hazard may still be present."
+          },
+          {
+            "text": "Let each person decide",
+            "score": 2,
+            "feedback": "Re-entry should be controlled and authorised."
+          },
+          {
+            "text": "Remain at the assembly point until the authorised all-clear",
+            "score": 10,
+            "feedback": "Correct. The end of the sound is not automatically permission to re-enter."
+          },
+          {
+            "text": "Re-enter briefly to collect belongings because the alarm has stopped",
+            "score": 0,
+            "feedback": "No one should re-enter before the authorised all-clear."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Aggressive Customer De-escalation",
+    "category": "Conflict Management",
+    "difficulty": "Medium",
+    "description": "Use calm communication, safe positioning and proportionate escalation during a heated complaint.",
+    "imageKey": "deescalation",
+    "durationMinutes": 9,
+    "learningOutcome": "Reduce tension while protecting personal safety and maintaining professional boundaries.",
+    "skillFocus": "Communication,De-escalation,Boundaries",
+    "steps": [
+      {
+        "situation": "A customer approaches shouting about a delayed service.",
+        "question": "What is the best opening response?",
+        "choices": [
+          {
+            "text": "Match their volume so they know you are serious",
+            "score": 0,
+            "feedback": "Matching aggression usually escalates the interaction."
+          },
+          {
+            "text": "Ignore them until they become quiet",
+            "score": 3,
+            "feedback": "Silence may feel dismissive and increase frustration."
+          },
+          {
+            "text": "State the rules immediately without first acknowledging the customer's concern",
+            "score": 5,
+            "feedback": "Clear rules matter, but acknowledgement and calm listening reduce escalation."
+          },
+          {
+            "text": "Use a calm tone, acknowledge the concern and invite them to explain",
+            "score": 10,
+            "feedback": "Correct. Calm acknowledgement can reduce the need to shout for attention."
+          }
+        ]
+      },
+      {
+        "situation": "The customer moves closer and points at you.",
+        "question": "What should you do?",
+        "choices": [
+          {
+            "text": "Push their hand away",
+            "score": 0,
+            "feedback": "Physical contact can escalate the incident."
+          },
+          {
+            "text": "Maintain safe space, keep an exit route and set a calm boundary",
+            "score": 10,
+            "feedback": "Correct. Position and boundaries support safety without provocation."
+          },
+          {
+            "text": "Stand completely still even if blocked in",
+            "score": 2,
+            "feedback": "You should preserve a safe route and request support if needed."
+          },
+          {
+            "text": "Step sideways to maintain space and discreetly signal a colleague for support",
+            "score": 8,
+            "feedback": "This improves safety and support, while calm boundaries should still be communicated."
+          }
+        ]
+      },
+      {
+        "situation": "They demand a promise you cannot authorise.",
+        "question": "How should you respond?",
+        "choices": [
+          {
+            "text": "Promise anything to end the argument",
+            "score": 0,
+            "feedback": "A false promise can create a larger dispute later."
+          },
+          {
+            "text": "Tell them there is absolutely nothing anyone can do",
+            "score": 3,
+            "feedback": "That may be inaccurate and unnecessarily final."
+          },
+          {
+            "text": "Explain what you can do, avoid false promises and offer the correct escalation route",
+            "score": 10,
+            "feedback": "Correct. Clear options are more useful than an impossible promise."
+          },
+          {
+            "text": "Transfer the customer to a manager without explaining what will happen next",
+            "score": 5,
+            "feedback": "Escalation can help, but an unexplained handover may increase frustration."
+          }
+        ]
+      },
+      {
+        "situation": "The customer begins making threats.",
+        "question": "What is the appropriate next step?",
+        "choices": [
+          {
+            "text": "Prioritise safety, disengage where possible and request support according to procedure",
+            "score": 10,
+            "feedback": "Correct. Threats change the risk level and require escalation."
+          },
+          {
+            "text": "Challenge them to repeat the threat",
+            "score": 0,
+            "feedback": "This may provoke further aggression."
+          },
+          {
+            "text": "Continue the same conversation as if nothing changed",
+            "score": 2,
+            "feedback": "The risk has changed and should be managed accordingly."
+          },
+          {
+            "text": "Repeat a formal warning while continuing to manage the threat alone",
+            "score": 3,
+            "feedback": "Once threats begin, personal safety and support should take priority."
+          }
+        ]
+      },
+      {
+        "situation": "The customer leaves and the immediate risk has ended.",
+        "question": "What should happen next?",
+        "choices": [
+          {
+            "text": "Post about the customer on social media",
+            "score": 0,
+            "feedback": "That risks privacy, professionalism and evidence integrity."
+          },
+          {
+            "text": "Only discuss it informally with colleagues",
+            "score": 3,
+            "feedback": "Informal discussion does not replace official reporting."
+          },
+          {
+            "text": "Record your opinion of the customer's attitude together with the factual details",
+            "score": 3,
+            "feedback": "Incident records should remain objective and evidence-based."
+          },
+          {
+            "text": "Record factual details and report through the approved incident process",
+            "score": 10,
+            "feedback": "Correct. Accurate reporting supports follow-up and learning."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Crowd Pressure at an Entrance",
+    "category": "Crowd Management",
+    "difficulty": "Medium",
+    "description": "Identify early crowd-pressure signs and coordinate safe flow before conditions become critical.",
+    "imageKey": "crowd-pressure",
+    "durationMinutes": 10,
+    "learningOutcome": "Monitor density, communicate changes and protect escape routes during rising crowd pressure.",
+    "skillFocus": "Crowd observation,Flow control,Team communication",
+    "steps": [
+      {
+        "situation": "People are arriving faster than screening can process them.",
+        "question": "What is the best early action?",
+        "choices": [
+          {
+            "text": "Report the build-up, slow inflow and open the approved contingency plan",
+            "score": 10,
+            "feedback": "Correct. Early intervention prevents pressure from becoming dangerous."
+          },
+          {
+            "text": "Wait until the queue becomes physically unstable",
+            "score": 0,
+            "feedback": "By then, options are more limited and risk is higher."
+          },
+          {
+            "text": "Tell staff to work faster without changing flow",
+            "score": 4,
+            "feedback": "Speed may help, but flow and capacity must be managed safely."
+          },
+          {
+            "text": "Close the entrance immediately without coordinating with exits or control",
+            "score": 3,
+            "feedback": "An uncoordinated closure can move pressure to another unsafe location."
+          }
+        ]
+      },
+      {
+        "situation": "The front of the queue is compressed against a barrier.",
+        "question": "What should you prioritise?",
+        "choices": [
+          {
+            "text": "Add another barrier to keep the line straight",
+            "score": 0,
+            "feedback": "More rigid containment can increase compression."
+          },
+          {
+            "text": "Ask people at the back to stop pushing by shouting",
+            "score": 3,
+            "feedback": "Communication helps, but flow changes and team coordination are also needed."
+          },
+          {
+            "text": "Reduce pressure, create space and coordinate controlled movement",
+            "score": 10,
+            "feedback": "Correct. Relieving compression is the immediate safety priority."
+          },
+          {
+            "text": "Remove the nearest barrier quickly without a controlled movement plan",
+            "score": 2,
+            "feedback": "Sudden barrier changes can release pressure unpredictably."
+          }
+        ]
+      },
+      {
+        "situation": "One exit route has become partially blocked by equipment.",
+        "question": "What should happen?",
+        "choices": [
+          {
+            "text": "Leave it because the exit is not currently being used",
+            "score": 0,
+            "feedback": "Emergency routes must be protected before they are needed."
+          },
+          {
+            "text": "Keep the route clear immediately and report the obstruction",
+            "score": 10,
+            "feedback": "Correct. Escape and relief routes must remain available."
+          },
+          {
+            "text": "Move people closer to the equipment to create another lane",
+            "score": 0,
+            "feedback": "This can worsen obstruction and trip risk."
+          },
+          {
+            "text": "Ask the equipment owner to move it later after the busiest period",
+            "score": 3,
+            "feedback": "Emergency routes must remain clear at all times."
+          }
+        ]
+      },
+      {
+        "situation": "A rumour spreads that the entrance is closing.",
+        "question": "How should staff respond?",
+        "choices": [
+          {
+            "text": "Repeat the rumour so people prepare",
+            "score": 0,
+            "feedback": "Unverified information can trigger dangerous behaviour."
+          },
+          {
+            "text": "Give different answers to different sections",
+            "score": 0,
+            "feedback": "Conflicting messages undermine control."
+          },
+          {
+            "text": "Give the crowd an estimated reopening time even though it has not been confirmed",
+            "score": 3,
+            "feedback": "Unverified timing can damage trust and trigger further movement."
+          },
+          {
+            "text": "Give consistent verified information and avoid contradicting messages",
+            "score": 10,
+            "feedback": "Correct. Consistent communication reduces sudden movement and panic."
+          }
+        ]
+      },
+      {
+        "situation": "The area is stabilised.",
+        "question": "What is the best final action?",
+        "choices": [
+          {
+            "text": "Maintain monitoring, document the trigger and review the flow plan",
+            "score": 10,
+            "feedback": "Correct. Stabilisation should be followed by learning and continued observation."
+          },
+          {
+            "text": "Return immediately to normal capacity",
+            "score": 3,
+            "feedback": "Conditions should be increased carefully and monitored."
+          },
+          {
+            "text": "Delete the incident record because nobody was injured",
+            "score": 0,
+            "feedback": "Near misses provide valuable prevention evidence."
+          },
+          {
+            "text": "Increase capacity gradually once calm returns but do not record what caused the pressure",
+            "score": 6,
+            "feedback": "A measured restart may be appropriate, but monitoring and learning must continue."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Ransomware Incident Containment",
+    "category": "Cybersecurity",
+    "difficulty": "Hard",
+    "description": "Coordinate technical and business decisions during a fast-moving ransomware event.",
+    "imageKey": "ransomware",
+    "durationMinutes": 13,
+    "learningOutcome": "Contain affected systems, preserve evidence and support controlled recovery decisions.",
+    "skillFocus": "Incident response,Containment,Business continuity",
+    "steps": [
+      {
+        "situation": "Multiple users report encrypted files and a ransom message.",
+        "question": "What should the response team prioritise first?",
+        "choices": [
+          {
+            "text": "Pay the ransom immediately to save time",
+            "score": 0,
+            "feedback": "Payment does not guarantee recovery and should not bypass governance or legal review."
+          },
+          {
+            "text": "Activate the incident plan, isolate affected systems and preserve evidence",
+            "score": 10,
+            "feedback": "Correct. Rapid containment and structured command limit spread and support investigation."
+          },
+          {
+            "text": "Restart every affected device",
+            "score": 2,
+            "feedback": "Restarting may destroy volatile evidence or worsen recovery options."
+          },
+          {
+            "text": "Shut down the entire network immediately without coordinating operational dependencies",
+            "score": 5,
+            "feedback": "Isolation may be necessary, but uncontrolled shutdown can damage critical services and evidence."
+          }
+        ]
+      },
+      {
+        "situation": "The infection may be spreading through shared storage.",
+        "question": "What is the best next action?",
+        "choices": [
+          {
+            "text": "Ask users to keep working while monitoring",
+            "score": 0,
+            "feedback": "Continued use may increase encryption and data loss."
+          },
+          {
+            "text": "Delete all shared folders",
+            "score": 0,
+            "feedback": "Destructive action can remove evidence and healthy data."
+          },
+          {
+            "text": "Block every internet connection, including protected emergency communications",
+            "score": 4,
+            "feedback": "Containment should be targeted and coordinated so essential communications remain available."
+          },
+          {
+            "text": "Restrict affected network connections and coordinate isolation with IT operations",
+            "score": 10,
+            "feedback": "Correct. Controlled isolation reduces spread while protecting critical services."
+          }
+        ]
+      },
+      {
+        "situation": "Senior management asks for a public statement within minutes.",
+        "question": "What should the response lead do?",
+        "choices": [
+          {
+            "text": "Provide verified facts, known impact, actions underway and clear uncertainty",
+            "score": 10,
+            "feedback": "Correct. Fast communication should still be accurate and controlled."
+          },
+          {
+            "text": "Announce that all data is safe before investigation",
+            "score": 0,
+            "feedback": "Unsupported reassurance can damage trust and create legal risk."
+          },
+          {
+            "text": "Refuse to communicate until the incident is completely resolved",
+            "score": 3,
+            "feedback": "Silence may create confusion; provide carefully verified updates."
+          },
+          {
+            "text": "Draft a public statement using the worst-case impact so it cannot underestimate the incident",
+            "score": 2,
+            "feedback": "Public information must be based on verified facts and clearly stated uncertainty."
+          }
+        ]
+      },
+      {
+        "situation": "Backups exist, but their integrity is not yet confirmed.",
+        "question": "What is the safest recovery decision?",
+        "choices": [
+          {
+            "text": "Restore the newest backup immediately",
+            "score": 2,
+            "feedback": "Recency does not guarantee integrity."
+          },
+          {
+            "text": "Connect backup systems directly to the infected network",
+            "score": 0,
+            "feedback": "This may expose the remaining recovery assets."
+          },
+          {
+            "text": "Validate clean backups and recovery environments before restoration",
+            "score": 10,
+            "feedback": "Correct. Restoring compromised backups can reintroduce the incident."
+          },
+          {
+            "text": "Test restoration in an isolated environment while preserving the original backups",
+            "score": 8,
+            "feedback": "This is a strong recovery control, alongside formal validation and approval."
+          }
+        ]
+      },
+      {
+        "situation": "The immediate threat is contained.",
+        "question": "What should happen before normal service resumes?",
+        "choices": [
+          {
+            "text": "Resume every service at once to reduce downtime",
+            "score": 2,
+            "feedback": "A phased, tested recovery is safer."
+          },
+          {
+            "text": "Confirm eradication, test recovery, monitor closely and record lessons learned",
+            "score": 10,
+            "feedback": "Correct. Controlled recovery and review reduce repeat compromise."
+          },
+          {
+            "text": "Close the incident because encryption has stopped",
+            "score": 0,
+            "feedback": "Containment is not the same as full recovery."
+          },
+          {
+            "text": "Reset all passwords and close the incident without extended monitoring",
+            "score": 3,
+            "feedback": "Credential resets may help, but eradication, testing and monitoring are still required."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Major Incident Command Centre",
+    "category": "Crisis Management",
+    "difficulty": "Hard",
+    "description": "Manage competing priorities, incomplete information and multi-team coordination during a major public incident.",
+    "imageKey": "mass-incident",
+    "durationMinutes": 14,
+    "learningOutcome": "Establish command, maintain a shared operating picture and allocate resources by risk.",
+    "skillFocus": "Command,Prioritisation,Coordination",
+    "steps": [
+      {
+        "situation": "Reports of injuries, blocked access and crowd movement arrive at the same time.",
+        "question": "What should the incident lead establish first?",
+        "choices": [
+          {
+            "text": "Solve each message personally in the order received",
+            "score": 2,
+            "feedback": "This creates overload and ignores relative risk."
+          },
+          {
+            "text": "Wait for perfect information before assigning tasks",
+            "score": 0,
+            "feedback": "Major incidents require action while information is still developing."
+          },
+          {
+            "text": "A clear command structure, communication channel and immediate priorities",
+            "score": 10,
+            "feedback": "Correct. Shared command prevents duplicated or conflicting action."
+          },
+          {
+            "text": "Nominate separate team leads but allow each to keep a different incident log",
+            "score": 6,
+            "feedback": "Delegated leadership helps, but a shared operating picture and log are essential."
+          }
+        ]
+      },
+      {
+        "situation": "Two teams give conflicting reports about the safest access route.",
+        "question": "How should this be handled?",
+        "choices": [
+          {
+            "text": "Verify through trusted sources, mark uncertainty and issue one coordinated instruction",
+            "score": 10,
+            "feedback": "Correct. A shared operating picture should distinguish fact from uncertainty."
+          },
+          {
+            "text": "Allow each team to use its preferred route",
+            "score": 0,
+            "feedback": "Conflicting movement can increase congestion and risk."
+          },
+          {
+            "text": "Choose the first report without checking",
+            "score": 3,
+            "feedback": "Speed matters, but the decision should use the best available evidence."
+          },
+          {
+            "text": "Combine both route reports and use the average estimated travel time",
+            "score": 0,
+            "feedback": "Conflicting safety information must be verified, not averaged."
+          }
+        ]
+      },
+      {
+        "situation": "Media posts are spreading unverified casualty numbers.",
+        "question": "What is the best communication response?",
+        "choices": [
+          {
+            "text": "Repeat the highest number so the public takes it seriously",
+            "score": 0,
+            "feedback": "Unverified figures can cause panic and damage credibility."
+          },
+          {
+            "text": "Ask all staff to respond individually online",
+            "score": 0,
+            "feedback": "Multiple unofficial voices create contradiction and disclosure risks."
+          },
+          {
+            "text": "Pause all public updates until every detail has been confirmed",
+            "score": 3,
+            "feedback": "Silence can create an information vacuum; verified updates can acknowledge uncertainty."
+          },
+          {
+            "text": "Release confirmed information through the authorised spokesperson and correct harmful inaccuracies",
+            "score": 10,
+            "feedback": "Correct. Timely, verified communication limits misinformation."
+          }
+        ]
+      },
+      {
+        "situation": "Resources are limited and three requests arrive at once.",
+        "question": "How should they be allocated?",
+        "choices": [
+          {
+            "text": "Send equal resources to every request",
+            "score": 4,
+            "feedback": "Equal distribution may ignore very different risk levels."
+          },
+          {
+            "text": "Prioritise by immediate threat to life, cascading risk and operational dependency",
+            "score": 10,
+            "feedback": "Correct. Risk-based allocation is more defensible than first-come-first-served."
+          },
+          {
+            "text": "Choose the request from the most senior person",
+            "score": 0,
+            "feedback": "Status should not replace operational risk."
+          },
+          {
+            "text": "Allocate resources according to which request arrived first",
+            "score": 3,
+            "feedback": "Sequence alone does not reflect threat to life or cascading consequences."
+          }
+        ]
+      },
+      {
+        "situation": "The incident moves into recovery.",
+        "question": "What should the command team do next?",
+        "choices": [
+          {
+            "text": "Disband immediately once the public area reopens",
+            "score": 2,
+            "feedback": "Outstanding risks and staff welfare may remain."
+          },
+          {
+            "text": "Delete temporary logs to avoid confusion",
+            "score": 0,
+            "feedback": "Logs may be essential for review, learning and accountability."
+          },
+          {
+            "text": "Define recovery ownership, welfare support, evidence retention and a structured debrief",
+            "score": 10,
+            "feedback": "Correct. Recovery requires governance as well as operational restoration."
+          },
+          {
+            "text": "Return teams to their normal rota and schedule the debrief for a later date",
+            "score": 4,
+            "feedback": "Recovery needs clear ownership, welfare support, records and a timely structured debrief."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Severe Weather Venue Response",
+    "category": "Emergency Response",
+    "difficulty": "Hard",
+    "description": "Balance shelter, evacuation and communication when severe weather threatens a crowded venue.",
+    "imageKey": "severe-weather",
+    "durationMinutes": 13,
+    "learningOutcome": "Use changing risk information to make coordinated shelter or evacuation decisions.",
+    "skillFocus": "Dynamic risk,Communication,Contingency planning",
+    "steps": [
+      {
+        "situation": "A severe-weather warning is upgraded while thousands of people are on site.",
+        "question": "What should leadership do first?",
+        "choices": [
+          {
+            "text": "Continue normal operations until weather is visible",
+            "score": 0,
+            "feedback": "Waiting may remove safe options."
+          },
+          {
+            "text": "Announce immediate evacuation before checking routes",
+            "score": 3,
+            "feedback": "Evacuation may be right, but unsafe routes or timing could worsen risk."
+          },
+          {
+            "text": "Ask each department to decide independently whether to shelter or evacuate",
+            "score": 2,
+            "feedback": "Fragmented decisions can create conflicting movement and communications."
+          },
+          {
+            "text": "Activate the weather plan, verify timing and assess shelter and exit capacity",
+            "score": 10,
+            "feedback": "Correct. The decision needs current information and known capacity."
+          }
+        ]
+      },
+      {
+        "situation": "One external route is exposed to high winds.",
+        "question": "How should this affect the plan?",
+        "choices": [
+          {
+            "text": "Keep it open to reduce congestion",
+            "score": 0,
+            "feedback": "Capacity does not justify using an unsafe route."
+          },
+          {
+            "text": "Remove that route from use and direct movement through safer approved options",
+            "score": 10,
+            "feedback": "Correct. Route safety must be reassessed as conditions change."
+          },
+          {
+            "text": "Let visitors choose whichever route they prefer",
+            "score": 2,
+            "feedback": "Movement should be coordinated using verified safe routes."
+          },
+          {
+            "text": "Keep the exposed route open for staff only",
+            "score": 1,
+            "feedback": "The route remains unsafe regardless of who uses it."
+          }
+        ]
+      },
+      {
+        "situation": "Public messages online claim the venue roof is unsafe, but this is unconfirmed.",
+        "question": "What is the best response?",
+        "choices": [
+          {
+            "text": "Ignore all public communication",
+            "score": 3,
+            "feedback": "A vacuum allows misinformation to spread."
+          },
+          {
+            "text": "Confirm the rumour so people leave quickly",
+            "score": 0,
+            "feedback": "False confirmation can trigger dangerous movement."
+          },
+          {
+            "text": "Issue a verified update, explain the current protective action and monitor official sources",
+            "score": 10,
+            "feedback": "Correct. Clear facts and instructions reduce rumour-driven movement."
+          },
+          {
+            "text": "Use personal social-media accounts to argue with people sharing the rumour",
+            "score": 0,
+            "feedback": "Uncoordinated personal replies can amplify misinformation."
+          }
+        ]
+      },
+      {
+        "situation": "Some visitors have mobility needs and the normal assistance team is stretched.",
+        "question": "What should happen?",
+        "choices": [
+          {
+            "text": "Prioritise the accessibility plan, allocate support and keep individuals informed",
+            "score": 10,
+            "feedback": "Correct. Inclusive safety planning must remain active under pressure."
+          },
+          {
+            "text": "Ask companions to manage without support",
+            "score": 2,
+            "feedback": "Companions may help, but the organisation retains responsibility for its plan."
+          },
+          {
+            "text": "Move everyone at the same speed regardless of need",
+            "score": 0,
+            "feedback": "This can create harm and block safe movement."
+          },
+          {
+            "text": "Move visitors with mobility needs last so the main crowd can clear first",
+            "score": 0,
+            "feedback": "Accessibility planning must protect people from being left at greater risk."
+          }
+        ]
+      },
+      {
+        "situation": "Conditions improve after the protective action.",
+        "question": "What is required before returning to normal?",
+        "choices": [
+          {
+            "text": "Reopen immediately because the rain has reduced",
+            "score": 2,
+            "feedback": "Visible improvement may not mean the site is safe."
+          },
+          {
+            "text": "Say nothing and let people move naturally",
+            "score": 0,
+            "feedback": "Uncontrolled movement can recreate congestion and uncertainty."
+          },
+          {
+            "text": "Stand down some response staff before inspection because conditions appear calmer",
+            "score": 3,
+            "feedback": "Visible improvement is not a substitute for authorised confirmation and inspection."
+          },
+          {
+            "text": "Receive authorised confirmation, inspect affected areas and communicate a phased stand-down",
+            "score": 10,
+            "feedback": "Correct. Recovery should be verified and controlled."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Critical System Failure During Operations",
+    "category": "Business Continuity",
+    "difficulty": "Hard",
+    "description": "Maintain safe service when a critical digital system fails during peak operations.",
+    "imageKey": "system-failure",
+    "durationMinutes": 13,
+    "learningOutcome": "Activate continuity controls, protect data integrity and restore services in a controlled order.",
+    "skillFocus": "Continuity,Prioritisation,System recovery",
+    "steps": [
+      {
+        "situation": "The main operational system becomes unavailable during the busiest period.",
+        "question": "What is the best immediate response?",
+        "choices": [
+          {
+            "text": "Declare the incident, switch to the approved continuity process and confirm system scope",
+            "score": 10,
+            "feedback": "Correct. Structured fallback maintains control while the fault is assessed."
+          },
+          {
+            "text": "Ask staff to invent their own manual processes",
+            "score": 0,
+            "feedback": "Uncoordinated workarounds create safety and data risks."
+          },
+          {
+            "text": "Restart every server without informing anyone",
+            "score": 2,
+            "feedback": "Unplanned restarts may worsen the outage and remove evidence."
+          },
+          {
+            "text": "Keep retrying the failed system while teams record informal notes separately",
+            "score": 3,
+            "feedback": "Repeated retries and fragmented records can worsen disruption and reconciliation."
+          }
+        ]
+      },
+      {
+        "situation": "The manual process is slower and a backlog is growing.",
+        "question": "How should work be prioritised?",
+        "choices": [
+          {
+            "text": "Process only the easiest requests",
+            "score": 2,
+            "feedback": "Ease is not the same as operational importance."
+          },
+          {
+            "text": "Promise normal service to avoid complaints",
+            "score": 0,
+            "feedback": "False expectations increase pressure and reduce trust."
+          },
+          {
+            "text": "Use agreed criticality rules and communicate realistic service limits",
+            "score": 10,
+            "feedback": "Correct. Prioritisation protects the most important outcomes."
+          },
+          {
+            "text": "Process requests from senior or VIP users before applying criticality rules",
+            "score": 0,
+            "feedback": "Priority should be based on operational impact, not status."
+          }
+        ]
+      },
+      {
+        "situation": "Staff are recording data on separate spreadsheets.",
+        "question": "What control is most important?",
+        "choices": [
+          {
+            "text": "Let every team design a different sheet",
+            "score": 0,
+            "feedback": "Different formats make reconciliation unreliable."
+          },
+          {
+            "text": "Use one approved template, clear ownership and a reconciliation plan",
+            "score": 10,
+            "feedback": "Correct. Controlled records reduce duplication and data loss."
+          },
+          {
+            "text": "Avoid recording anything until the system returns",
+            "score": 0,
+            "feedback": "Critical actions still need an audit trail."
+          },
+          {
+            "text": "Use timestamped paper records and arrange central reconciliation as soon as possible",
+            "score": 7,
+            "feedback": "A controlled manual record can support continuity, but one approved process is still preferable."
+          }
+        ]
+      },
+      {
+        "situation": "A vendor says the platform can be restored quickly using an untested patch.",
+        "question": "What should leadership decide?",
+        "choices": [
+          {
+            "text": "Apply it immediately to production",
+            "score": 2,
+            "feedback": "An untested patch may create a larger failure."
+          },
+          {
+            "text": "Reject all vendor support",
+            "score": 0,
+            "feedback": "Vendor expertise may be valuable when managed safely."
+          },
+          {
+            "text": "Apply the patch to one live server without a rollback plan",
+            "score": 3,
+            "feedback": "A limited change is still risky without testing, approval and rollback control."
+          },
+          {
+            "text": "Assess risk, test where possible and approve change through emergency governance",
+            "score": 10,
+            "feedback": "Correct. Urgency should not remove change control entirely."
+          }
+        ]
+      },
+      {
+        "situation": "Service has been restored.",
+        "question": "What should happen before the incident is closed?",
+        "choices": [
+          {
+            "text": "Reconcile manual records, confirm stability, document impact and review continuity lessons",
+            "score": 10,
+            "feedback": "Correct. Recovery includes data accuracy and organisational learning."
+          },
+          {
+            "text": "Delete the manual records because the system is back",
+            "score": 0,
+            "feedback": "Those records may contain transactions not yet captured."
+          },
+          {
+            "text": "Close the incident as soon as the login screen works",
+            "score": 2,
+            "feedback": "Technical availability alone does not confirm full operational recovery."
+          },
+          {
+            "text": "Announce full resolution as soon as users can log in, before reconciling the backlog",
+            "score": 2,
+            "feedback": "Technical access alone does not prove data integrity or operational recovery."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,14 +1,22 @@
 {
-  "name": "drilldeck-sql-submission-ready",
+  "name": "drilldeck-server",
   "version": "5.0.0",
-  "private": true,
-  "description": "Professional full-stack decision training platform using React, Express and SQLite",
+  "description": "DrillDeck Express and SQLite API",
+  "main": "src/server.js",
   "scripts": {
-    "setup": "npm install --prefix server && npm install --prefix client",
-    "dev": "node scripts/dev.js",
-    "start": "npm run start --prefix server",
-    "build": "npm run build --prefix client",
-    "verify": "node scripts/verify-project.js",
-    "smoke": "node scripts/live-smoke-test.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "3.0.2",
+    "cors": "2.8.5",
+    "dotenv": "16.5.0",
+    "express": "4.21.2",
+    "jsonwebtoken": "9.0.2",
+    "sequelize": "6.37.7",
+    "sqlite3": "5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.10"
   }
 }
