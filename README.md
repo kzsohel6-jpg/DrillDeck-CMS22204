@@ -134,10 +134,4 @@ server/src/utils/seedScenarios.json          Initial 12-scenario library
 scripts/live-smoke-test.js                   End-to-end live verification
 ```
 
-## Presentation preparation
 
-1. Run the application once with internet access.
-2. Run `run-final-check.bat` and save a screenshot of the success message.
-3. Complete two or three trainee scenarios so charts contain visible evidence.
-4. Confirm the administrator can open **Scenario studio** and **Trainee records**.
-5. Back up the project, presentation and report to OneDrive and a USB drive.
